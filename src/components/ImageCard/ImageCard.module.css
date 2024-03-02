@@ -1,6 +1,6 @@
 .card {
   animation: fadeIn 0.5s;
-  max-width: 280px; /* Максимальна ширина для мобільних пристроїв */
+  width: 280px; /* Максимальна ширина для мобільних пристроїв */
   height: 320px;
   overflow: hidden;
   border-radius: 5px;
@@ -8,7 +8,7 @@
 
 @media (min-width: 480px) {
   .card {
-    max-width: 320px; /* Максимальна ширина для таблетів */
+    width: 320px; /* Максимальна ширина для таблетів */
     height: 360px;
   }
 }
@@ -16,7 +16,7 @@
 @media (min-width: 901px) {
   .card {
     height: 420px; /* Максимальна ширина для десктопів */
-    max-width: 380px;
+    width: 380px;
   }
 }
 
