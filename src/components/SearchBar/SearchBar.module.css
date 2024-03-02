@@ -1,7 +1,7 @@
 .header {
   background-color: #3f51b5;
-  padding: 20px 0;
-  width: 100%; 
+  padding: 20px;
+  width: 100%;
 }
 
 .form {
@@ -38,5 +38,9 @@
 
   .button {
     padding: 8px 16px;
+  }
+
+  .header {
+    padding: 10px 0 10px 0;
   }
 }
