@@ -1,6 +1,6 @@
 .gallery {
   list-style: none;
-  padding: 0;
+  padding: auto;
   margin: 20px 0;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
